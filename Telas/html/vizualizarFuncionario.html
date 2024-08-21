@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/funcionario.css" />
+    <title>Gerenciamento de Funcionarios</title>
+  </head>
+
+  <body class="fundo__projeto">
+    <header class="parte__superior">
+      <h1 class="texto__funcionario">歡迎來到圖書</h1>
+
+      <nav class="navbar">
+        <a href="#"><img src="/imgs/toshu__menu.png" class="icon" /></a>
+        <a href="#"><img src="/imgs/cliente.png" class="icon" /></a>
+        <a href="#"><img src="/imgs/fornecedor.png" class="icon" /></a>
+        <a href="#" id="ativo"
+          ><img src="/imgs/funcionario.png" class="icon"
+        /></a>
+      </nav>
+
+      <div class="pesquisa__notificacao">
+        <label for="pesquisa" class="pesquisa__header">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            id="pesquisa"
+            placeholder="Pesquisar"
+            class="input__pesquisa"
+          />
+        </label>
+
+        <button class="notificacao__header">
+          <i class="fa-regular fa-bell"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="cards">
+      <div class="caixa adicionar">
+        <button class="adicionar__card">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      <div class="caixa card__dados">
+        <img
+          src="/imgs/imgFuncionario__Henrique.png"
+          class="imagem__funcionario"
+        />
+        <h1 class="nome__funcionario">Henrique Bueno</h1>
+        <h2 class="cargo__funcionario">TI</h2>
+        <button class="ver__completo">Ver completo</button>
+      </div>
+      <div class="caixa card__dados">
+        <img
+          src="/imgs/imgFuncionario__Pedro.png"
+          class="imagem__funcionario"
+        />
+        <h1 class="nome__funcionario">Pedro Rodrigues</h1>
+        <h2 class="cargo__funcionario">TI</h2>
+        <button class="ver__completo">Ver completo</button>
+      </div>
+      <div class="caixa card__dados">
+        <img
+          src="/imgs/imgFuncionario__Henrique.png"
+          class="imagem__funcionario"
+        />
+        <h1 class="nome__funcionario">Henrique Bueno</h1>
+        <h2 class="cargo__funcionario">TI</h2>
+        <button class="ver__completo">Ver completo</button>
+      </div>
+      <div class="caixa card__dados">
+        <img
+          src="/imgs/imgFuncionario__Pedro.png"
+          class="imagem__funcionario"
+        />
+        <h1 class="nome__funcionario">Pedro Rodrigues</h1>
+        <h2 class="cargo__funcionario">TI</h2>
+        <button class="ver__completo">Ver completo</button>
+      </div>
+    </section>
+
+    <section class="informacoes__funcionarios">
+      <header class="funcionarios__nav">
+        <label for="pesquisaFuncionario" class="pesquisa_funcionario">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            id="pesquisa"
+            placeholder="Pesquisar"
+            class="input__pesquisaFuncionario"
+          />
+        </label>
+
+        <button class="adicionar__funcionario">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </header>
+      <div class="dados__relacionados"></div>
+
+      <div class="dados__selecionados"></div>
+      <div class="dados__selecionados"></div>
+      <div class="dados__selecionados"></div>
+      <div class="dados__selecionados"></div>
+      <div class="dados__selecionados"></div>
+      <div class="dados__selecionados"></div>
+    </section>
+  </body>
+</html>

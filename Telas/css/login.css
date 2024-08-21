@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@100..900&display=swap');
+
+:root{
+    --roxo-principal: #77176E;
+    --roxo-secundario: #47003C;
+    --amarelo-logo: #ECCB24;
+    --cinza-texto: #1C1C1C;
+    --branco-caixa: #FFFFFF;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.main__login{
+    height: 100dvh;
+    background-color: var(--roxo-principal);
+    position: relative;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: var(--branco-caixa);
+    border-radius: 2%;
+    width: 30vw;
+    height: 65vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    box-shadow: 0 0 10px 10px #47003C;
+}
+
+.icone__texto{
+    background-color: transparent;
+    border: 1.5px solid var(--roxo-secundario);
+    border-radius: 10px;
+    width: 70%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: text;
+    
+
+}
+
+.icone__texto i{
+    font-size: 25px;
+    color: var(--cinza-texto);
+    margin-left: 3%;
+}
+
+
+.segundo{
+    margin-top: 20px;
+}
+.text{
+    width: 110%;
+    height: 97%;
+    padding: 0 0 0 10px;    
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text:focus-visible{
+    outline: none;
+}
+
+
+.botao__form{
+    width: 70%;
+    height: 6vh;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #47003C;
+    border: none;
+    color: var(--branco-caixa);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: 0.5s;
+}
+
+.botao__form:hover{
+    transform: scale(1.05);
+}
+
+
+.Rest__senha{
+    text-decoration: none;
+    color: #47003C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.detalhe{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 55vh;
+}
+
+.nome__tushu{
+    position: absolute;
+    color: var(--amarelo-logo);
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    left: 3%;
+}
+
+.imagem__logo{
+    width: 150px;
+    margin-bottom: 3%;
+}
