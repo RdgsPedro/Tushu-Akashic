@@ -20,6 +20,7 @@ sobrenome varchar(45),
 email  varchar(45),
 telefone varchar(13),
 endereco varchar (45),
+nr_endereco int,
 primary key (id_cliente)
 );
 
@@ -30,6 +31,7 @@ contato varchar(45),
 email varchar(45),
 telefone varchar(45),
 endereco varchar(45),
+nr_endereco int,
 primary key (id_fornecedor)
 );
 

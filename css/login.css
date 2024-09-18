@@ -131,4 +131,5 @@ body{
 .imagem__logo{
     width: 150px;
     margin-bottom: 3%;
+    object-fit: cover;
 }

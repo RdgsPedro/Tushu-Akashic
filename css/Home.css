@@ -1,0 +1,24 @@
+.section_tushu{
+    height: 420px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.section_tushu h1{
+    color: #ECCB24;
+    font-family: "Poppins", sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section_tushu h2{
+    color: #ECCB24;
+    font-family: "Poppins", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0.3;
+}
