@@ -11,14 +11,18 @@ const openBtn = document.getElementById('openBtn');
     });
 
     // Função para fechar o modal
+
     closeBtn.addEventListener('click', () => {
       modal.style.display = 'none';
       overlay.style.display = 'none';
     });
 
+
     // Fechar modal ao submeter o formulário
+    
     form.addEventListener('submit', (e) => {
-      e.preventDefault(); // Evita o recarregamento da página
+      e.preventDefault(); 
+      // Evita o recarregamento da página
       modal.style.display = 'none';
       overlay.style.display = 'none';
       alert('Formulário enviado com sucesso!');
