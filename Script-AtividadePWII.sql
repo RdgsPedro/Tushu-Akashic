@@ -54,3 +54,6 @@ primary key (id_despesa),
 foreign key (id_categoria) references tb_Categoria (id_categoria),
 foreign key (id_funcionario) references funcionario (id_funcionario)
 );
+
+insert into funcionario
+values (null, "Henrique", "Paiero", '2000-10-15', "Designer", 1000.00, '2020-08-10', "123");
