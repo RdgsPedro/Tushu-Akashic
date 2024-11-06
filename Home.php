@@ -17,8 +17,22 @@
             <a href="#">
                 <span id="ativo">
                     <img src="img/toshu__menu.png" alt="Logo" class="logo__img">
-                    <span>Home</span>
+                    <span>Home <?php
+                        session_start();
+                        if (isset($_SESSION['nm_funcionario'])) {
+                        $nome = $_SESSION['nm_funcionario'];
+                        echo "Olá ".$nome;
+                        }else{
+                            echo "<script>alert('Você não está Logado!'); history.back() </script>";
+                        }
+                    ?></span>
                 </span>  
+            </a>
+            <a href="php/logout.php">
+                <span>
+                    <i class="material-symbols-outlined">work</i>
+                    <span>Sair</span>
+                </span>
             </a>
         </header>
         <nav>
@@ -35,6 +49,7 @@
                     <span>Funcionario</span>
                 </span>
             </a>
+            
 
             <a href="Fornecedor.html">
                 <span>

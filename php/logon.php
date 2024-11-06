@@ -20,7 +20,9 @@ $registro_user_banco = $resultado['id_funcionario'];
 $id_senha_banco = $resultado['senha'];
 
 if ($registro_user == $registro_user_banco && $senha_user == $id_senha_banco) {
-    header('location: ../Home.html');
+    session_start();
+    $_SESSION['nm_funcionario'] = $resultado['nm_funcionario'];
+    header('location: ../Home.php');
 }else{
     echo "<script>alert('usuario ou senha invalidos'); history.back() </script>";
 }
