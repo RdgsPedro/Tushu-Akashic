@@ -28,12 +28,6 @@
                     ?></span>
                 </span>  
             </a>
-            <a href="php/logout.php">
-                <span>
-                    <i class="material-symbols-outlined">work</i>
-                    <span>Sair</span>
-                </span>
-            </a>
         </header>
         <nav>
             <a href="Cliente.html">
@@ -72,10 +66,10 @@
                 </span>
             </a>
             
-            <a href="#" class="config">
+            <a href="php/logout.php" class="sair">
                 <span>
-                    <i class="material-symbols-outlined">settings</i>
-                    <span>Configurações</span>
+                    <i class="material-symbols-outlined">logout</i>
+                    <span>Sair</span>
                 </span>
             </a>
         </nav>
