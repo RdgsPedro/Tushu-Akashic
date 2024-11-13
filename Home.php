@@ -30,14 +30,14 @@
             </a>
         </header>
         <nav>
-            <a href="Cliente.html">
+            <a href="Cliente.php">
                 <span>
                     <i class="material-symbols-outlined">person</i>
                     <span>Cliente</span>
                 </span>
             </a>
 
-            <a href="Funcionario.html">
+            <a href="Funcionario.php">
                 <span>
                     <i class="material-symbols-outlined">work</i>
                     <span>Funcionario</span>
@@ -45,21 +45,21 @@
             </a>
             
 
-            <a href="Fornecedor.html">
+            <a href="Fornecedor.php">
                 <span>
                     <i class="material-symbols-outlined">local_shipping</i>
                     <span>Fornecedor</span>
                 </span>
             </a>
 
-            <a href="Lancamento.html">
+            <a href="Lancamento.php">
                 <span>
                     <i class="material-symbols-outlined">payments</i>
                     <span>Lançamento</span>
                 </span>
             </a>
 
-            <a href="Categoria.html">
+            <a href="Categoria.php">
                 <span>
                     <i class="material-symbols-outlined">category</i>
                     <span>Categoria</span>

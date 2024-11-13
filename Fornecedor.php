@@ -14,7 +14,7 @@
 <body>
 <aside class="sidebar">
         <header class="sidebar__header">
-            <a href="/Home.php">
+            <a href="Home.php">
                 <span>
                     <img src="img/toshu__menu.png" alt="Logo" class="logo__img">
                     <span>Home</span>
@@ -22,36 +22,36 @@
             </a>
         </header>
         <nav>
-            <a href="/Cliente.php">
+            <a href="Cliente.php">
                 <span>
                     <i class="material-symbols-outlined">person</i>
                     <span>Cliente</span>
                 </span>
             </a>
 
-            <a href="/Funcionario.php">
+            <a href="Funcionario.php">
                 <span>
                     <i class="material-symbols-outlined">work</i>
                     <span>Funcionario</span>
                 </span>
             </a>
 
-            <a href="/Fornecedor.php">
-                <span>
+            <a href="Fornecedor.php">
+                <span id="ativo">
                     <i class="material-symbols-outlined">local_shipping</i>
                     <span>Fornecedor</span>
                 </span>
             </a>
 
-            <a href="/Lancamento.php">
+            <a href="Lancamento.php">
                 <span>
                     <i class="material-symbols-outlined">payments</i>
                     <span>Lançamento</span>
                 </span>
             </a>
 
-            <a href="/Categoria.php">
-                <span id="ativo">
+            <a href="Categoria.php">
+                <span>
                     <i class="material-symbols-outlined">category</i>
                     <span>Categoria</span>
                 </span>
