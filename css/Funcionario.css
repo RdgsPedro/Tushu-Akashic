@@ -83,17 +83,21 @@
   }
   
   .cargo__input {
-    width: 13.25vw;
+    width: 8vw;
   }
   
   .salario__input {
-    width: 13.25vw;
+    width: 8vw;
   }
   
   .dtAdmissao__input {
-    width: 10vw;
+    width: 9vw;
   }
   
+  .senha__input{
+    width: 10vw;
+  }
+
   .caixa__logo {
     position: absolute;
     right: 4%;

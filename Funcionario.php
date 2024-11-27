@@ -89,9 +89,9 @@
             <input type="text" name="sobrenome" class="inputs__form sobrenome__input">
           </label>
 
-          <label for="dataNascimento" class="label__form">
+          <label for="dtnas" class="label__form">
             <h1 class="label__text">Data de Nascimento</h1>
-            <input type="date" name="dataNascimento" class="inputs__form dtNascimento__input">
+            <input type="date" name="dtnas" class="inputs__form dtNascimento__input">
           </label>
         </div>
 
@@ -106,9 +106,14 @@
             <input type="text" name="salario" class="inputs__form salario__input">
           </label>
     
-          <label for="dtAdmissao" class="label__form">
+          <label for="dtem" class="label__form">
             <h1 class="label__text">dt_admissao</h1>
-            <input type="date" name="dtAdmissao" class="inputs__form dtAdmissao__input">
+            <input type="date" name="dtem" class="inputs__form dtAdmissao__input">
+          </label>
+
+          <label for="senha" class="label__form">
+            <h1 class="label__text">Senha</h1>
+            <input type="text" name="senha" class="inputs__form senha__input">
           </label>
         </div>
       </div>
