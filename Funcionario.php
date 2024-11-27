@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
   />
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/Funcionario.css">
+    <link rel="stylesheet" href="css/funcionario.css">
 </head>
 <body>
 <aside class="sidebar">
@@ -67,7 +67,62 @@
     </aside>
     <main class="main">
         <section class="main__section">
+        <form action="php/Funcionario.php" method="post">
+        <h2 class="textoCadastroCliente">Cadastro de funcionário</h2> 
+        <div class="caixa__inputs">
 
+        <div class="inputs__1">
+          <label for="id" class="label__form">
+            <h1 class="label__text">ID</h1>
+            <input type="text" name="id" class="inputs__form id__input" disabled="">
+          </label>
+        
+          <label for="Nome" class="label__form">
+            <h1 class="label__text">Nome</h1>
+            <input type="text" name="nome" class="inputs__form nome__input">
+          </label>
+        </div> 
+
+        <div class="inputs__2">
+          <label for="sobrenome" class="label__form">
+            <h1 class="label__text">Sobrenome</h1>
+            <input type="text" name="sobrenome" class="inputs__form sobrenome__input">
+          </label>
+
+          <label for="dataNascimento" class="label__form">
+            <h1 class="label__text">Data de Nascimento</h1>
+            <input type="date" name="dataNascimento" class="inputs__form dtNascimento__input">
+          </label>
+        </div>
+
+        <div class="inputs__3">
+          <label for="cargo" class="label__form">
+            <h1 class="label__text">Cargo</h1>
+            <input type="text" name="cargo" class="inputs__form cargo__input">
+          </label>
+        
+          <label for="salario" class="label__form">
+            <h1 class="label__text">Salário</h1>
+            <input type="text" name="salario" class="inputs__form salario__input">
+          </label>
+    
+          <label for="dtAdmissao" class="label__form">
+            <h1 class="label__text">dt_admissao</h1>
+            <input type="date" name="dtAdmissao" class="inputs__form dtAdmissao__input">
+          </label>
+        </div>
+      </div>
+
+        <div class="caixa__logo">
+          <img src="img/toshu__menu.png" alt="logo">
+          <h1>Dados</h1>
+        </div>
+    
+        <div class="botoes">
+          <input type="reset" value="Fechar" class="botoes__form" id="closeBtn">
+          <input type="submit" value="Cadastrar" class="botoes__form">
+        </div>
+       </form>
         </section>
     </main>
 </body>
